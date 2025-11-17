@@ -1,0 +1,34 @@
+cafes = 58
+precio_cafe = 1.6
+
+bocadillos = 33
+precio_bocadillo = 4.5
+
+menus = 18
+precio_menu = 14
+
+# TU CÓDIGO AQUÍ:
+ingresos_cafes = precio_cafes * cafes
+ingresos_bocadillos = precio_bocadillos * bocadillos 
+ingresos_menus = precio_menu * menus
+ingresos_totales = ingresos_cafe + ingresos_bocadillos + ingresos_menus 
+
+print("Ingresos cafés:", ingresos_cafes)
+print("Ingresos bocadillos:", ingresos_bocadillos)
+print("Ingresos menús:", ingresos_menus)
+print("TOTAL:", ingresos_totales)
+Ingresos cafés: 92.8 €
+Ingresos bocadillos: 148.5 €
+Ingresos menús: 252 €
+TOTAL: 493.3 €
+
+panaderia = 42.75
+bebidas = 63.40
+verduras = 28.90
+carne_pescado = 115.80
+
+# TU CÓDIGO AQUÍ:
+total_gastos = panaderia + bebidas + verduras + carne_pescado 
+
+print("Gasto total diario:", total_gastos, "€") #250.85
+
